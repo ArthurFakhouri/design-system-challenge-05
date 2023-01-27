@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && start-storybook -p 6006",
-    "deploy-storybook": "SET NODE_OPTIONS=--openssl-legacy-provider && storybook-to-ghpages",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && build-storybook"
+    "dev": "start-storybook -p 6006",
+    "deploy-storybook": "storybook-to-ghpages",
+    "build": "&& build-storybook"
   },
   "keywords": [],
   "author": "",
