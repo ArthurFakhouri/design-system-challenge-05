@@ -14,7 +14,7 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
-<a target="_blank" href="https://github-blog-chi-ten.vercel.app">Demo</a>
+<a target="_blank" href="https://arthurfakhouri.github.io/design-system-challenge-05">Demo</a>
 
 ## 🈸 Projeto
 
@@ -34,6 +34,10 @@ Navegue até a pasta onde clonou o projeto e execute os seguintes comandos no te
 <pre>SET NODE_OPTIONS=--openssl-legacy-provider && '</pre>
 
 ## 📽️ Demonstração
+
+
+https://user-images.githubusercontent.com/71707151/215885602-622c4e0a-c185-4784-897c-d46549feef0e.mp4
+
 
 ## 🚀 Tecnologias
 
