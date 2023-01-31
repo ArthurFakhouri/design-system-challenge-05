@@ -10,7 +10,15 @@ export default {
   title: 'Form/Text Input',
   component: TextInput,
 
-  args: {},
+  args: {
+    size: 'md',
+  },
+  argTypes: {
+    size: {
+      options: ['sm', 'md'],
+      control: 'inline-radio',
+    }
+  },
   decorators: [
     (Story) => {
       return (
@@ -39,5 +47,6 @@ export const Disabled: StoryObj<TextInputProps> = {
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'cal.com',
+    placeholder: 'your-username',
   },
 }
