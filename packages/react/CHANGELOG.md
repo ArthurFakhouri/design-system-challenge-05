@@ -1,5 +1,11 @@
 # @ignite-ui-arthur-fakhouri/react
 
+## 4.0.1
+
+### Patch Changes
+
+- Add option to pass reference to TextInput and ajust some styles
+
 ## 4.0.0
 
 ### Major Changes
